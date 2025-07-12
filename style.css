@@ -105,20 +105,20 @@ footer button {
 }
 
 .mockups {
-  width: 100%;
-  max-width: 100%;
+  width: 50%;
+  max-width: 50%;
   margin: 0;
   padding: 0;
 }
 
 .mockup-gallery {
-  width: 100%;
+  width: 50%;
   text-align: center; /* Centers the image */
 }
 
 .mockup-gallery img {
-  width: 100%;
+  width: 50%;
   height: auto;
-  max-width: 100%;
+  max-width: 50%;
   display: block;
 }
