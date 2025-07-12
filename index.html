@@ -3,28 +3,71 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Coming Soon – Move to Unlock</title>
+  <title>Move to Unlock – Coming Soon</title>
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-  <div class="container">
-    <h1>🏃‍♂️ Move to Unlock</h1>
-    <p class="tagline">Earn your screen time.</p>
-    
-    <p class="description">
-      Before TikTok. Before games. Before Netflix.  
-      You walk. You run. You move.  
-      Log your minutes or miles — and your favorite apps unlock.
+  <header class="hero">
+    <h1>🏃 Move to Unlock</h1>
+    <p class="tagline">Earn your screen time by moving.</p>
+    <p class="subtext">Before social media. Before games. You move — then you unlock. A motivational twist on Screen Time.</p>
+  </header>
+
+  <section class="how-it-works">
+    <h2>How It Works</h2>
+    <div class="steps">
+      <div class="step">
+        <h3>1. Set Goals</h3>
+        <p>Choose your daily movement target — either by minutes or distance.</p>
+      </div>
+      <div class="step">
+        <h3>2. Get Moving</h3>
+        <p>The app tracks your activity using Apple Health and your iPhone's motion sensors.</p>
+      </div>
+      <div class="step">
+        <h3>3. Unlock Apps</h3>
+        <p>Once your goal is hit, your selected apps become available again.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="mockups">
+    <h2>App Interface (Mockups)</h2>
+    <div class="mockup-gallery">
+      <img src="https://via.placeholder.com/200x400?text=Goal+Setup" alt="Goal Setup Screenshot">
+      <img src="https://via.placeholder.com/200x400?text=Progress+Tracker" alt="Progress Screenshot">
+      <img src="https://via.placeholder.com/200x400?text=Apps+Unlocked" alt="Unlock Screenshot">
+    </div>
+    <p class="caption">Note: UI under development. Placeholder visuals shown here.</p>
+  </section>
+
+  <section class="privacy">
+    <h2>Privacy First</h2>
+    <p>
+      We respect your privacy. All activity and app usage data remains on your device.
+      The app uses Apple Health and Screen Time APIs solely to enforce your personal app usage limits based on your movement goals.
+      We do not collect or share any personal or behavioral data.
     </p>
+  </section>
 
-    <p class="note">Coming soon to iOS.</p>
+  <section class="entitlement">
+    <h2>Why We Use Screen Time Entitlement</h2>
+    <p>
+      This app requires the <code>com.apple.developer.screen-time</code> entitlement in order to manage and restrict third-party app access.
+      This is a core part of the app’s functionality: we block access to selected apps until users complete their physical activity goals.
+    </p>
+    <p>
+      The feature aims to promote healthier screen habits and encourage physical activity — especially in students, children, and screen-heavy users.
+    </p>
+  </section>
 
-    <form class="email-form">
-      <input type="email" placeholder="Get notified..." required>
+  <footer class="coming-soon">
+    <p>Coming soon to the App Store – Fall 2025</p>
+    <form>
+      <input type="email" placeholder="Get notified at launch">
       <button type="submit">Notify Me</button>
     </form>
-
-    <p class="footer">© 2025 Move to Unlock</p>
-  </div>
+    <p class="footer-note">© 2025 Move to Unlock</p>
+  </footer>
 </body>
 </html>
