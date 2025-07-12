@@ -2,74 +2,117 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: #0f1116;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  background-color: #0f1116;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+header.hero {
   text-align: center;
+  padding: 60px 20px 40px;
+  background: linear-gradient(145deg, #1e1e2d, #15151f);
 }
 
-.container {
-  max-width: 600px;
-  padding: 20px;
-}
-
-h1 {
-  font-size: 2.5em;
-  margin-bottom: 0.2em;
+.hero h1 {
+  font-size: 2.8em;
+  margin-bottom: 10px;
 }
 
 .tagline {
   font-size: 1.2em;
-  margin-bottom: 1em;
   color: #7bc4ff;
 }
 
-.description {
-  font-size: 1.1em;
-  line-height: 1.6;
-  margin-bottom: 2em;
+.subtext {
+  font-size: 1em;
+  margin-top: 10px;
+  max-width: 500px;
+  margin-inline: auto;
 }
 
-.note {
-  font-style: italic;
-  margin-bottom: 2em;
+section {
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.how-it-works h2,
+.mockups h2,
+.privacy h2,
+.entitlement h2 {
+  text-align: center;
+  font-size: 1.8em;
+  margin-bottom: 30px;
+}
+
+.steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.step {
+  background: #1a1a28;
+  padding: 20px;
+  border-radius: 12px;
+  width: 250px;
+}
+
+.mockup-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.mockup-gallery img {
+  border-radius: 10px;
+  border: 2px solid #444;
+}
+
+.caption {
+  text-align: center;
+  font-size: 0.9em;
   color: #aaa;
 }
 
-.email-form {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  max-width: 300px;
-  margin: 0 auto 2em auto;
+.privacy p,
+.entitlement p {
+  margin-bottom: 1em;
+  max-width: 700px;
+  margin-inline: auto;
+  text-align: center;
 }
 
-.email-form input {
+footer.coming-soon {
+  text-align: center;
+  background-color: #1c1c2b;
+  padding: 40px 20px;
+}
+
+footer input {
   padding: 10px;
+  font-size: 1em;
   border-radius: 6px;
   border: none;
-  font-size: 1em;
+  width: 250px;
+  margin-right: 10px;
 }
 
-.email-form button {
-  padding: 10px;
-  border-radius: 6px;
+footer button {
+  padding: 10px 15px;
+  font-size: 1em;
   background-color: #7bc4ff;
   border: none;
-  font-size: 1em;
+  border-radius: 6px;
   cursor: pointer;
-  color: #000;
   font-weight: bold;
 }
 
-.email-form button:hover {
-  background-color: #5baee0;
-}
-
-.footer {
-  font-size: 0.8em;
-  color: #555;
+.footer-note {
+  margin-top: 20px;
+  font-size: 0.85em;
+  color: #888;
 }
