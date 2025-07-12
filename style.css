@@ -59,19 +59,6 @@ section {
   width: 250px;
 }
 
-.mockup-gallery {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
-  margin-bottom: 10px;
-}
-
-.mockup-gallery img {
-  border-radius: 10px;
-  border: 2px solid #444;
-}
-
 .caption {
   text-align: center;
   font-size: 0.9em;
@@ -115,4 +102,23 @@ footer button {
   margin-top: 20px;
   font-size: 0.85em;
   color: #888;
+}
+
+.mockups {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.mockup-gallery {
+  width: 100%;
+  text-align: center; /* Centers the image */
+}
+
+.mockup-gallery img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
 }
